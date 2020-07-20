@@ -178,7 +178,7 @@
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <suiteXmlFiles>
                         <!--testng.xml文件位置-->
-                        <suiteXmlFile>src/main/resources/testNG.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/testNG.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
