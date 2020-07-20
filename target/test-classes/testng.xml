@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--套件-->
+<suite name="天气预报" parallel="false">
+    <!--测试集/模块-->
+    <test name="post_tianqiyubao">
+        <!--测试类-->
+        <classes>
+            <!--单个的测试类定义-->
+            <!--<class name="com.java.lemon.api_Param_Auto.get_API"/>-->
+            <class name="com.lemon.aip.auto.cases.login_v7"/>
+            <class name="com.lemon.aip.auto.cases.login_v8"/>
+
+            <class name="com.lemon.aip.auto.cases.login_v10"/>
+            <class name="com.lemon.aip.auto.cases.login_v9"/>
+
+        </classes>
+    </test>
+
+
+</suite>
