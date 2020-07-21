@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="天气预报" duration-ms="18126" started-at="2020-07-21T14:31:50Z" finished-at="2020-07-21T14:32:08Z">
+    <groups>
+    </groups>
+    <test name="post_tianqiyubao" duration-ms="18126" started-at="2020-07-21T14:31:50Z" finished-at="2020-07-21T14:32:08Z">
+      <class name="com.lemon.aip.auto.cases.login_v7">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.aip.auto.cases.login_v7@1f1cae23]" name="test" duration-ms="3160" started-at="2020-07-21T22:31:50Z" data-provider="datas" finished-at="2020-07-21T22:31:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToTure}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"returnCode":"0000","data":{"tenantId":"0012","ownIndustry":"1","provinceCode":"510000","cityCode":"511300","corpId":"202004201034395250001277400756","deptId":"202004201034395250001277400756","deptName":"仪陇县劲源天然气","deptOutCode":"990101","deptType":"4","staffId":"202004211313203950001598321269","staffName":"客服经理","orgId":"990101","deptInnerCode":"","photoUrl":"","${longinUsernameToTure}Menu":[{"link":"${longinUsernameToTure}-index-caiji.jsp","title":"采集监控","jumpUrl":"enesys-monitor"},{"link":"${longinUsernameToTure}-index.jsp","title":"系统后台","jumpUrl":"enesys-web"},{"link":"index.jsp","title":"业务系统","jumpUrl":"enesys-web"},{"link":"druid/index.html","title":"数据源监控","jumpUrl":"enesys-web"}],"mhMenu":null,"listDate":null,"post":",4,","seatNumber":"##pstnPhone#","unitPriceDecimalDigit":2,"representativeReceiver":"0","limitAmount":null,"businessPermissions":"0"},"returnMessage":""}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}3'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.aip.auto.cases.login_v7@1f1cae23]" name="test" duration-ms="1551" started-at="2020-07-21T22:31:53Z" data-provider="datas" finished-at="2020-07-21T22:31:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToTure}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"returnCode":"0000","data":{"tenantId":"0012","ownIndustry":"1","provinceCode":"510000","cityCode":"511300","corpId":"202004201034395250001277400756","deptId":"202004201034395250001277400756","deptName":"仪陇县劲源天然气","deptOutCode":"990101","deptType":"4","staffId":"202004211313203950001598321269","staffName":"客服经理","orgId":"990101","deptInnerCode":"","photoUrl":"","${longinUsernameToTure}Menu":[{"link":"${longinUsernameToTure}-index-caiji.jsp","title":"采集监控","jumpUrl":"enesys-monitor"},{"link":"${longinUsernameToTure}-index.jsp","title":"系统后台","jumpUrl":"enesys-web"},{"link":"index.jsp","title":"业务系统","jumpUrl":"enesys-web"},{"link":"druid/index.html","title":"数据源监控","jumpUrl":"enesys-web"}],"mhMenu":null,"listDate":null,"post":",4,","seatNumber":"##pstnPhone#","unitPriceDecimalDigit":2,"representativeReceiver":"0","limitAmount":null,"businessPermissions":"0"},"returnMessage":""}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}4'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.aip.auto.cases.login_v7@1f1cae23]" name="test" duration-ms="1840" started-at="2020-07-21T22:31:55Z" data-provider="datas" finished-at="2020-07-21T22:31:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"loginAccount":"","password":"${loginPasswordToTure}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"returnCode":"1111","returnMessage":"账号不能为空！"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}5'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.aip.auto.cases.login_v7@1f1cae23]" name="test" duration-ms="1219" started-at="2020-07-21T22:31:57Z" data-provider="datas" finished-at="2020-07-21T22:31:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"loginAccount":"","password":"${loginPasswordToTure}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"returnCode":"1111","returnMessage":"账号不能为空！"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}6'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.aip.auto.cases.login_v7@1f1cae23]" name="test" duration-ms="1213" started-at="2020-07-21T22:31:58Z" data-provider="datas" finished-at="2020-07-21T22:31:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"loginAccount":"${loginUsernameToFalse}","password":"${loginPasswordToTure}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"returnCode":"1001","returnMessage":"用户名不存在"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}7'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.aip.auto.cases.login_v7@1f1cae23]" name="test" duration-ms="1306" started-at="2020-07-21T22:31:59Z" data-provider="datas" finished-at="2020-07-21T22:32:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToFalse}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"returnCode":"1001","returnMessage":"用户密码错误"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}8'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="batchWriteBackDatas()[pri:0, instance:com.lemon.aip.auto.cases.login_v7@1f1cae23]" name="batchWriteBackDatas" is-config="true" duration-ms="108" started-at="2020-07-21T22:32:08Z" finished-at="2020-07-21T22:32:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchWriteBackDatas -->
+      </class> <!-- com.lemon.aip.auto.cases.login_v7 -->
+      <class name="com.lemon.aip.auto.cases.login_v8">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.aip.auto.cases.login_v8@56303475]" name="test" duration-ms="1621" started-at="2020-07-21T22:32:01Z" data-provider="datas" finished-at="2020-07-21T22:32:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"phone":"${correctPhoneNumber}","key":"${keyToTure}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}9'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.aip.auto.cases.login_v8@56303475]" name="test" duration-ms="1315" started-at="2020-07-21T22:32:02Z" data-provider="datas" finished-at="2020-07-21T22:32:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"phone":"${correctPhoneNumber}","key":"${keyToTure}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}10'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.aip.auto.cases.login_v8@56303475]" name="test" duration-ms="1328" started-at="2020-07-21T22:32:03Z" data-provider="datas" finished-at="2020-07-21T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"phone":"","key":"${keyToTure}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}11'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.aip.auto.cases.login_v8@56303475]" name="test" duration-ms="1325" started-at="2020-07-21T22:32:05Z" data-provider="datas" finished-at="2020-07-21T22:32:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"phone":"","key":"${keyToTure}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}12'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.aip.auto.cases.login_v8@56303475]" name="test" duration-ms="1651" started-at="2020-07-21T22:32:06Z" data-provider="datas" finished-at="2020-07-21T22:32:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"phone":"${correctPhoneNumber}","key":"${keyToTure}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}13'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.lemon.aip.auto.cases.login_v8 -->
+    </test> <!-- post_tianqiyubao -->
+  </suite> <!-- 天气预报 -->
+</testng-results>

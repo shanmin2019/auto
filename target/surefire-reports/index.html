@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-天气预报">
+              <span class="suite-name border-passed">天气预报</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-天气预报">
+                    <span>D:\lemenJava_v1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-天气预报">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-天气预报">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-天气预报">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-天气预报">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-天气预报">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-天气预报">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-天气预报" class="hide-methods passed suite-天气预报"> (hide)</a> <!-- hide-methods passed suite-天气预报 -->
+                      <a href="#" panel-name="suite-天气预报" class="show-methods passed suite-天气预报"> (show)</a> <!-- show-methods passed suite-天气预报 -->
+                    </span>
+                    <div class="method-list-content passed suite-天气预报">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-天气预报" title="com.lemon.aip.auto.cases.login_v7" hash-for-method="test(6, 1, {&quot;loginAccount&quot;:&quot;${longinUsernameToTure}&quot;,&quot;password&quot;:&quot;${loginPasswordToFalse}&quot;}, {&quot;returnCode&quot;...)">test(6, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToFalse}"}, {"returnCode"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-天气预报" title="com.lemon.aip.auto.cases.login_v8" hash-for-method="test(9, 2, {&quot;phone&quot;:&quot;&quot;,&quot;key&quot;:&quot;${keyToTure}&quot;}, , [{&quot;no&quot;:&quot;1&quot;,&quot;sql&quot;:&quot;select COUNT(*) from staff  where staff...)">test(9, 2, {"phone":"","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staff...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-天气预报" title="com.lemon.aip.auto.cases.login_v7" hash-for-method="test(4, 1, {&quot;loginAccount&quot;:&quot;&quot;,&quot;password&quot;:&quot;${loginPasswordToTure}&quot;}, {&quot;returnCode&quot;:&quot;1111&quot;,&quot;returnMessage&quot;:...)">test(4, 1, {"loginAccount":"","password":"${loginPasswordToTure}"}, {"returnCode":"1111","returnMessage":...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-天气预报" title="com.lemon.aip.auto.cases.login_v7" hash-for-method="test(2, 1, {&quot;loginAccount&quot;:&quot;${longinUsernameToTure}&quot;,&quot;password&quot;:&quot;${loginPasswordToTure}&quot;}, {&quot;returnCode&quot;:...)">test(2, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToTure}"}, {"returnCode":...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-天气预报" title="com.lemon.aip.auto.cases.login_v8" hash-for-method="test(11, 2, {&quot;phone&quot;:&quot;${correctPhoneNumber}&quot;,&quot;key&quot;:&quot;${keyToTure}&quot;}, , [{&quot;no&quot;:&quot;1&quot;,&quot;sql&quot;:&quot;select COUNT(*) f...)">test(11, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) f...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-天气预报" title="com.lemon.aip.auto.cases.login_v8" hash-for-method="test(8, 2, {&quot;phone&quot;:&quot;${correctPhoneNumber}&quot;,&quot;key&quot;:&quot;${keyToTure}&quot;}, , [{&quot;no&quot;:&quot;1&quot;,&quot;sql&quot;:&quot;select COUNT(*) fr...)">test(8, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) fr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-天气预报" title="com.lemon.aip.auto.cases.login_v7" hash-for-method="test(1, 1, {&quot;loginAccount&quot;:&quot;${longinUsernameToTure}&quot;,&quot;password&quot;:&quot;${loginPasswordToTure}&quot;}, {&quot;returnCode&quot;:...)">test(1, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToTure}"}, {"returnCode":...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-天气预报" title="com.lemon.aip.auto.cases.login_v7" hash-for-method="test(5, 1, {&quot;loginAccount&quot;:&quot;${loginUsernameToFalse}&quot;,&quot;password&quot;:&quot;${loginPasswordToTure}&quot;}, {&quot;returnCode&quot;:...)">test(5, 1, {"loginAccount":"${loginUsernameToFalse}","password":"${loginPasswordToTure}"}, {"returnCode":...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-天气预报" title="com.lemon.aip.auto.cases.login_v8" hash-for-method="test(7, 2, {&quot;phone&quot;:&quot;${correctPhoneNumber}&quot;,&quot;key&quot;:&quot;${keyToTure}&quot;}, , [{&quot;no&quot;:&quot;1&quot;,&quot;sql&quot;:&quot;select COUNT(*) fr...)">test(7, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) fr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-天气预报" title="com.lemon.aip.auto.cases.login_v7" hash-for-method="test(3, 1, {&quot;loginAccount&quot;:&quot;&quot;,&quot;password&quot;:&quot;${loginPasswordToTure}&quot;}, {&quot;returnCode&quot;:&quot;1111&quot;,&quot;returnMessage&quot;:...)">test(3, 1, {"loginAccount":"","password":"${loginPasswordToTure}"}, {"returnCode":"1111","returnMessage":...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-天气预报" title="com.lemon.aip.auto.cases.login_v8" hash-for-method="test(10, 2, {&quot;phone&quot;:&quot;&quot;,&quot;key&quot;:&quot;${keyToTure}&quot;}, , [{&quot;no&quot;:&quot;1&quot;,&quot;sql&quot;:&quot;select COUNT(*) from staff  where staf...)">test(10, 2, {"phone":"","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staf...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-天气预报 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-天气预报" class="panel 天气预报">
+          <div class="suite-天气预报-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lemon.aip.auto.cases.login_v7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(6, 1, {&quot;loginAccount&quot;:&quot;${longinUsernameToTure}&quot;,&quot;password&quot;:&quot;${loginPasswordToFalse}&quot;}, {&quot;returnCode&quot;...)">
+                  </a> <!-- test(6, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToFalse}"}, {"returnCode"...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(6, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToFalse}"}, {"returnCode":"1001","returnMessage":"用户密码错误"}, [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}8'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(4, 1, {&quot;loginAccount&quot;:&quot;&quot;,&quot;password&quot;:&quot;${loginPasswordToTure}&quot;}, {&quot;returnCode&quot;:&quot;1111&quot;,&quot;returnMessage&quot;:...)">
+                  </a> <!-- test(4, 1, {"loginAccount":"","password":"${loginPasswordToTure}"}, {"returnCode":"1111","returnMessage":...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(4, 1, {"loginAccount":"","password":"${loginPasswordToTure}"}, {"returnCode":"1111","returnMessage":"账号不能为空！"}, [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}6'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(2, 1, {&quot;loginAccount&quot;:&quot;${longinUsernameToTure}&quot;,&quot;password&quot;:&quot;${loginPasswordToTure}&quot;}, {&quot;returnCode&quot;:...)">
+                  </a> <!-- test(2, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToTure}"}, {"returnCode":...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(2, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToTure}"}, {"returnCode":"0000","data":{"tenantId":"0012","ownIndustry":"1","provinceCode":"510000","cityCode":"511300","corpId":"202004201034395250001277400756","deptId":"202004201034395250001277400756","deptName":"仪陇县劲源天然气","deptOutCode":"990101","deptType":"4","staffId":"202004211313203950001598321269","staffName":"客服经理","orgId":"990101","deptInnerCode":"","photoUrl":"","${longinUsernameToTure}Menu":[{"link":"${longinUsernameToTure}-index-caiji.jsp","title":"采集监控","jumpUrl":"enesys-monitor"},{"link":"${longinUsernameToTure}-index.jsp","title":"系统后台","jumpUrl":"enesys-web"},{"link":"index.jsp","title":"业务系统","jumpUrl":"enesys-web"},{"link":"druid/index.html","title":"数据源监控","jumpUrl":"enesys-web"}],"mhMenu":null,"listDate":null,"post":",4,","seatNumber":"##pstnPhone#","unitPriceDecimalDigit":2,"representativeReceiver":"0","limitAmount":null,"businessPermissions":"0"},"returnMessage":""}, [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}4'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(1, 1, {&quot;loginAccount&quot;:&quot;${longinUsernameToTure}&quot;,&quot;password&quot;:&quot;${loginPasswordToTure}&quot;}, {&quot;returnCode&quot;:...)">
+                  </a> <!-- test(1, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToTure}"}, {"returnCode":...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(1, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToTure}"}, {"returnCode":"0000","data":{"tenantId":"0012","ownIndustry":"1","provinceCode":"510000","cityCode":"511300","corpId":"202004201034395250001277400756","deptId":"202004201034395250001277400756","deptName":"仪陇县劲源天然气","deptOutCode":"990101","deptType":"4","staffId":"202004211313203950001598321269","staffName":"客服经理","orgId":"990101","deptInnerCode":"","photoUrl":"","${longinUsernameToTure}Menu":[{"link":"${longinUsernameToTure}-index-caiji.jsp","title":"采集监控","jumpUrl":"enesys-monitor"},{"link":"${longinUsernameToTure}-index.jsp","title":"系统后台","jumpUrl":"enesys-web"},{"link":"index.jsp","title":"业务系统","jumpUrl":"enesys-web"},{"link":"druid/index.html","title":"数据源监控","jumpUrl":"enesys-web"}],"mhMenu":null,"listDate":null,"post":",4,","seatNumber":"##pstnPhone#","unitPriceDecimalDigit":2,"representativeReceiver":"0","limitAmount":null,"businessPermissions":"0"},"returnMessage":""}, [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}3'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(5, 1, {&quot;loginAccount&quot;:&quot;${loginUsernameToFalse}&quot;,&quot;password&quot;:&quot;${loginPasswordToTure}&quot;}, {&quot;returnCode&quot;:...)">
+                  </a> <!-- test(5, 1, {"loginAccount":"${loginUsernameToFalse}","password":"${loginPasswordToTure}"}, {"returnCode":...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(5, 1, {"loginAccount":"${loginUsernameToFalse}","password":"${loginPasswordToTure}"}, {"returnCode":"1001","returnMessage":"用户名不存在"}, [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}7'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(3, 1, {&quot;loginAccount&quot;:&quot;&quot;,&quot;password&quot;:&quot;${loginPasswordToTure}&quot;}, {&quot;returnCode&quot;:&quot;1111&quot;,&quot;returnMessage&quot;:...)">
+                  </a> <!-- test(3, 1, {"loginAccount":"","password":"${loginPasswordToTure}"}, {"returnCode":"1111","returnMessage":...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(3, 1, {"loginAccount":"","password":"${loginPasswordToTure}"}, {"returnCode":"1111","returnMessage":"账号不能为空！"}, [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}5'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-天气预报-class-passed -->
+          <div class="suite-天气预报-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lemon.aip.auto.cases.login_v8</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(9, 2, {&quot;phone&quot;:&quot;&quot;,&quot;key&quot;:&quot;${keyToTure}&quot;}, , [{&quot;no&quot;:&quot;1&quot;,&quot;sql&quot;:&quot;select COUNT(*) from staff  where staff...)">
+                  </a> <!-- test(9, 2, {"phone":"","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staff...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(9, 2, {"phone":"","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}11'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(11, 2, {&quot;phone&quot;:&quot;${correctPhoneNumber}&quot;,&quot;key&quot;:&quot;${keyToTure}&quot;}, , [{&quot;no&quot;:&quot;1&quot;,&quot;sql&quot;:&quot;select COUNT(*) f...)">
+                  </a> <!-- test(11, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) f...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(11, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}13'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(8, 2, {&quot;phone&quot;:&quot;${correctPhoneNumber}&quot;,&quot;key&quot;:&quot;${keyToTure}&quot;}, , [{&quot;no&quot;:&quot;1&quot;,&quot;sql&quot;:&quot;select COUNT(*) fr...)">
+                  </a> <!-- test(8, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) fr...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(8, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}10'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(7, 2, {&quot;phone&quot;:&quot;${correctPhoneNumber}&quot;,&quot;key&quot;:&quot;${keyToTure}&quot;}, , [{&quot;no&quot;:&quot;1&quot;,&quot;sql&quot;:&quot;select COUNT(*) fr...)">
+                  </a> <!-- test(7, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) fr...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(7, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}9'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(10, 2, {&quot;phone&quot;:&quot;&quot;,&quot;key&quot;:&quot;${keyToTure}&quot;}, , [{&quot;no&quot;:&quot;1&quot;,&quot;sql&quot;:&quot;select COUNT(*) from staff  where staf...)">
+                  </a> <!-- test(10, 2, {"phone":"","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staf...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(10, 2, {"phone":"","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}12'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-天气预报-class-passed -->
+        </div> <!-- panel 天气预报 -->
+        <div panel-name="test-xml-天气预报" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\lemenJava_v1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;天气预报&quot;&gt;
+  &lt;test name=&quot;post_tianqiyubao&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.lemon.aip.auto.cases.login_v7&quot;/&gt;
+      &lt;class name=&quot;com.lemon.aip.auto.cases.login_v8&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- post_tianqiyubao --&gt;
+&lt;/suite&gt; &lt;!-- 天气预报 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-天气预报" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for 天气预报</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">post_tianqiyubao (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-天气预报" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for 天气预报</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-天气预报" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for 天气预报</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_天气预报');
+function tableData_天气预报() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'com.lemon.aip.auto.cases.login_v7')
+data.setCell(0, 3, 3160);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'com.lemon.aip.auto.cases.login_v7')
+data.setCell(1, 3, 1840);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'com.lemon.aip.auto.cases.login_v8')
+data.setCell(2, 3, 1651);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test')
+data.setCell(3, 2, 'com.lemon.aip.auto.cases.login_v8')
+data.setCell(3, 3, 1621);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test')
+data.setCell(4, 2, 'com.lemon.aip.auto.cases.login_v7')
+data.setCell(4, 3, 1551);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test')
+data.setCell(5, 2, 'com.lemon.aip.auto.cases.login_v8')
+data.setCell(5, 3, 1328);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test')
+data.setCell(6, 2, 'com.lemon.aip.auto.cases.login_v8')
+data.setCell(6, 3, 1325);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test')
+data.setCell(7, 2, 'com.lemon.aip.auto.cases.login_v8')
+data.setCell(7, 3, 1315);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test')
+data.setCell(8, 2, 'com.lemon.aip.auto.cases.login_v7')
+data.setCell(8, 3, 1306);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test')
+data.setCell(9, 2, 'com.lemon.aip.auto.cases.login_v7')
+data.setCell(9, 3, 1219);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test')
+data.setCell(10, 2, 'com.lemon.aip.auto.cases.login_v7')
+data.setCell(10, 3, 1213);
+window.suiteTableData['天气预报']= { tableData: data, tableDiv: 'times-div-天气预报'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-天气预报">
+              </div> <!-- times-div-天气预报 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-天气预报" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for 天气预报</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-天气预报" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.lemon.aip.auto.cases.login_v8</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">batchWriteBackDatas</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-天气预报" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.aip.auto.cases.login_v7</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test(1, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToTure}"}, {"returnCode":...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(2, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToTure}"}, {"returnCode":...)</span>
+                <span class="method-start">3163 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(3, 1, {"loginAccount":"","password":"${loginPasswordToTure}"}, {"returnCode":"1111","returnMessage":...)</span>
+                <span class="method-start">4714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(4, 1, {"loginAccount":"","password":"${loginPasswordToTure}"}, {"returnCode":"1111","returnMessage":...)</span>
+                <span class="method-start">6555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(5, 1, {"loginAccount":"${loginUsernameToFalse}","password":"${loginPasswordToTure}"}, {"returnCode":...)</span>
+                <span class="method-start">7774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(6, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToFalse}"}, {"returnCode"...)</span>
+                <span class="method-start">8987 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.aip.auto.cases.login_v8</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test(7, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) fr...)</span>
+                <span class="method-start">10297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(8, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) fr...)</span>
+                <span class="method-start">11919 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(9, 2, {"phone":"","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staff...)</span>
+                <span class="method-start">13235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(10, 2, {"phone":"","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staf...)</span>
+                <span class="method-start">14564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(11, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) f...)</span>
+                <span class="method-start">15889 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.aip.auto.cases.login_v7</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">batchWriteBackDatas</span>
+                <span class="method-start">17577 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

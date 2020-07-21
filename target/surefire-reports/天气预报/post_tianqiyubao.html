@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  post_tianqiyubao</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>post_tianqiyubao</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 21 22:31:50 CST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>18 seconds (18126 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.lemon.aip.auto.cases.login_v7.test()'><b>test</b><br>Test class: com.lemon.aip.auto.cases.login_v7<br>Parameters: 1, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToTure}"}, {"returnCode":"0000","data":{"tenantId":"0012","ownIndustry":"1","provinceCode":"510000","cityCode":"511300","corpId":"202004201034395250001277400756","deptId":"202004201034395250001277400756","deptName":"仪陇县劲源天然气","deptOutCode":"990101","deptType":"4","staffId":"202004211313203950001598321269","staffName":"客服经理","orgId":"990101","deptInnerCode":"","photoUrl":"","${longinUsernameToTure}Menu":[{"link":"${longinUsernameToTure}-index-caiji.jsp","title":"采集监控","jumpUrl":"enesys-monitor"},{"link":"${longinUsernameToTure}-index.jsp","title":"系统后台","jumpUrl":"enesys-web"},{"link":"index.jsp","title":"业务系统","jumpUrl":"enesys-web"},{"link":"druid/index.html","title":"数据源监控","jumpUrl":"enesys-web"}],"mhMenu":null,"listDate":null,"post":",4,","seatNumber":"##pstnPhone#","unitPriceDecimalDigit":2,"representativeReceiver":"0","limitAmount":null,"businessPermissions":"0"},"returnMessage":""}, [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}3'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]</td>
+<td></td>
+<td>3</td>
+<td>com.lemon.aip.auto.cases.login_v7@1f1cae23</td></tr>
+<tr>
+<td title='com.lemon.aip.auto.cases.login_v7.test()'><b>test</b><br>Test class: com.lemon.aip.auto.cases.login_v7<br>Parameters: 2, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToTure}"}, {"returnCode":"0000","data":{"tenantId":"0012","ownIndustry":"1","provinceCode":"510000","cityCode":"511300","corpId":"202004201034395250001277400756","deptId":"202004201034395250001277400756","deptName":"仪陇县劲源天然气","deptOutCode":"990101","deptType":"4","staffId":"202004211313203950001598321269","staffName":"客服经理","orgId":"990101","deptInnerCode":"","photoUrl":"","${longinUsernameToTure}Menu":[{"link":"${longinUsernameToTure}-index-caiji.jsp","title":"采集监控","jumpUrl":"enesys-monitor"},{"link":"${longinUsernameToTure}-index.jsp","title":"系统后台","jumpUrl":"enesys-web"},{"link":"index.jsp","title":"业务系统","jumpUrl":"enesys-web"},{"link":"druid/index.html","title":"数据源监控","jumpUrl":"enesys-web"}],"mhMenu":null,"listDate":null,"post":",4,","seatNumber":"##pstnPhone#","unitPriceDecimalDigit":2,"representativeReceiver":"0","limitAmount":null,"businessPermissions":"0"},"returnMessage":""}, [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}4'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]</td>
+<td></td>
+<td>1</td>
+<td>com.lemon.aip.auto.cases.login_v7@1f1cae23</td></tr>
+<tr>
+<td title='com.lemon.aip.auto.cases.login_v7.test()'><b>test</b><br>Test class: com.lemon.aip.auto.cases.login_v7<br>Parameters: 3, 1, {"loginAccount":"","password":"${loginPasswordToTure}"}, {"returnCode":"1111","returnMessage":"账号不能为空！"}, [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}5'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]</td>
+<td></td>
+<td>1</td>
+<td>com.lemon.aip.auto.cases.login_v7@1f1cae23</td></tr>
+<tr>
+<td title='com.lemon.aip.auto.cases.login_v7.test()'><b>test</b><br>Test class: com.lemon.aip.auto.cases.login_v7<br>Parameters: 4, 1, {"loginAccount":"","password":"${loginPasswordToTure}"}, {"returnCode":"1111","returnMessage":"账号不能为空！"}, [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}6'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]</td>
+<td></td>
+<td>1</td>
+<td>com.lemon.aip.auto.cases.login_v7@1f1cae23</td></tr>
+<tr>
+<td title='com.lemon.aip.auto.cases.login_v7.test()'><b>test</b><br>Test class: com.lemon.aip.auto.cases.login_v7<br>Parameters: 5, 1, {"loginAccount":"${loginUsernameToFalse}","password":"${loginPasswordToTure}"}, {"returnCode":"1001","returnMessage":"用户名不存在"}, [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}7'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]</td>
+<td></td>
+<td>1</td>
+<td>com.lemon.aip.auto.cases.login_v7@1f1cae23</td></tr>
+<tr>
+<td title='com.lemon.aip.auto.cases.login_v7.test()'><b>test</b><br>Test class: com.lemon.aip.auto.cases.login_v7<br>Parameters: 6, 1, {"loginAccount":"${longinUsernameToTure}","password":"${loginPasswordToFalse}"}, {"returnCode":"1001","returnMessage":"用户密码错误"}, [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}8'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]</td>
+<td></td>
+<td>1</td>
+<td>com.lemon.aip.auto.cases.login_v7@1f1cae23</td></tr>
+<tr>
+<td title='com.lemon.aip.auto.cases.login_v8.test()'><b>test</b><br>Test class: com.lemon.aip.auto.cases.login_v8<br>Parameters: 7, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}9'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]</td>
+<td></td>
+<td>1</td>
+<td>com.lemon.aip.auto.cases.login_v8@56303475</td></tr>
+<tr>
+<td title='com.lemon.aip.auto.cases.login_v8.test()'><b>test</b><br>Test class: com.lemon.aip.auto.cases.login_v8<br>Parameters: 8, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}10'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]</td>
+<td></td>
+<td>1</td>
+<td>com.lemon.aip.auto.cases.login_v8@56303475</td></tr>
+<tr>
+<td title='com.lemon.aip.auto.cases.login_v8.test()'><b>test</b><br>Test class: com.lemon.aip.auto.cases.login_v8<br>Parameters: 9, 2, {"phone":"","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}11'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]</td>
+<td></td>
+<td>1</td>
+<td>com.lemon.aip.auto.cases.login_v8@56303475</td></tr>
+<tr>
+<td title='com.lemon.aip.auto.cases.login_v8.test()'><b>test</b><br>Test class: com.lemon.aip.auto.cases.login_v8<br>Parameters: 10, 2, {"phone":"","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}12'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]</td>
+<td></td>
+<td>1</td>
+<td>com.lemon.aip.auto.cases.login_v8@56303475</td></tr>
+<tr>
+<td title='com.lemon.aip.auto.cases.login_v8.test()'><b>test</b><br>Test class: com.lemon.aip.auto.cases.login_v8<br>Parameters: 11, 2, {"phone":"${correctPhoneNumber}","key":"${keyToTure}"}, , [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id = '201908011418103770001364234${loginUsernameToFalse}13'"}], [{"no":"1","sql":"select COUNT(*) from staff  where staff_no = '${longinUsernameToTure}'"},{"no":"2","sql":"select COUNT(*) FROM staff_role where staff_id ='2019080114181037700013642343'"}]</td>
+<td></td>
+<td>1</td>
+<td>com.lemon.aip.auto.cases.login_v8@56303475</td></tr>
+</table><p>
+</body>
+</html>

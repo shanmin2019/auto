@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [天气预报]">
+  <test name="post_tianqiyubao(failed)">
+    <classes>
+      <class name="com.lemon.aip.auto.cases.login_v7">
+        <methods>
+          <include name="batchWriteBackDatas"/>
+        </methods>
+      </class> <!-- com.lemon.aip.auto.cases.login_v7 -->
+      <class name="com.lemon.aip.auto.cases.login_v10">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.lemon.aip.auto.cases.login_v10 -->
+    </classes>
+  </test> <!-- post_tianqiyubao(failed) -->
+</suite> <!-- Failed suite [天气预报] -->
